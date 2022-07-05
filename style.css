@@ -1,0 +1,39 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  background:linear-gradient(rgb(221, 195, 195), rgb(187, 197, 184));
+}
+
+input {
+  margin-top: 100px;
+  height: 50px;
+  width: 350px;
+  font-size: 2rem;
+}
+
+form {
+  display: block;
+}
+
+span {
+  background-color: rgb(255, 174, 174);
+}
+
+input::placeholder{
+  text-align:right;
+  padding: 25%;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+ul {
+  list-style-type: none;
+}
